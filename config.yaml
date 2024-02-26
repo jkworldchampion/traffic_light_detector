@@ -1,0 +1,13 @@
+
+path: D:/programming/book/traffic_light_detector/data
+train: images/train
+val: images/train
+
+# Classes
+names:
+  0: green
+  1: red
+  2: yellow
+  3: left
+# 4: off
+
