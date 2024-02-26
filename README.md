@@ -11,11 +11,12 @@ Traffic light Detector for Korea urban road/한국형 신호등 인식 프로그
 
 ![스크린샷 2024-02-27 041442](https://github.com/Dongwon-tuna/traffic_light_detector/assets/61178312/baf88f4d-2c21-415d-a200-dc42ae01a9d5)
 
-위 구성을 참고하여 우리가 학습한 데이터의 Confusion Matrix를 분석할 수 있다. 
+위 구성을 참고하여 우리가 학습한 데이터의 Confusion Marix를 분석할 수 있다. 
 
 대체적으로 green과 left와 red의 TP와 FP는 신뢰 가능성의 수치를 보였으나, 절대적인 yellow 데이터 부재와 Train, Val, Test 분류 실수로 인하여 유효한 데이터를 가져오지 못 하였다.(추후 재 학습 예정)
 
-![confusion_matrix](https://github.com/Dongwon-tuna/traffic_light_detector/assets/61178312/94e4571a-f891-4b4d-b7b6-b3df702c84dc)
+![confusion_matrix_normalized](https://github.com/Dongwon-tuna/traffic_light_detector/assets/61178312/f2df126c-c8bc-4c5c-83cd-9f6d7c490687)
+
 
 
 ## 2. Precision-Recall Curve
@@ -108,4 +109,4 @@ X-axis: Epochs, Y-axis: Value
 초록불과 좌회전이 동시에 켜진 신호등을 판단하는 상황.  
 ![green_right](https://github.com/jkworldchampion/traffic_light_detector/assets/83493949/032b0537-e254-4318-81ff-79df5c96a46c)  
 
-다양한 영상에서 실시간으로 인식이 가능한 것으로 보아, 충분히 활용 가능성이 있을 것으로 판단됨.  
+다양한 영상에서 실시간으로 탐지가 가능한 것으로 보아, 충분히 활용 가능성이 있는 것으로 판단함 있는 것으로 판단됨.  
