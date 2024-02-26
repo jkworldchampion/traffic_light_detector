@@ -2,4 +2,6 @@ print("hi")
 
 print("dong won hi, fuck")
 
-prinit("hot tea")
+print("hot tea")
+
+print("lunch")
