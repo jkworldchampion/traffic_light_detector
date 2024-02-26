@@ -1,5 +1,13 @@
-print("hi")
+from ultralytics import YOLO
+import cv2
 
-print("hot tea")
+model = YOLO('best_korea.pt')
+model.predict(source="0", show=True, conf=0.5)
 
-print("lunch")
+# Increase the frame rate by adjusting the waitKey value
+while True:
+    key = cv2.waitKey(1)  # Adjust the value (e.g., 10) to increase the frame rate
+    
+    # Break the loop if the 'q' key is pressed
+    if key == ord('q'):
+        break
