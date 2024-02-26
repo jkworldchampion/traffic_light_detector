@@ -1,0 +1,15 @@
+names:
+- green
+- left
+- red
+- yellow
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: traffic_light_kr
+  url: https://universe.roboflow.com/trafficlight-sai75/traffic_light_kr/dataset/1
+  version: 1
+  workspace: trafficlight-sai75
+test: test/images
+train: train/images
+val: valid/images
