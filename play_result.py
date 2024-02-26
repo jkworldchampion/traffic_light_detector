@@ -1,9 +1,9 @@
 from ultralytics import YOLO
 import cv2
 # load yolov8 model
-model = YOLO('best123.pt')
+model = YOLO('final_korean_cam.pt')
 # load video
-video_path = 'america.mp4'
+video_path = '2.mp4'
 cap = cv2.VideoCapture(video_path)
 ret = True
 # read frames
