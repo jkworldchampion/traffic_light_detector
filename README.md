@@ -11,7 +11,7 @@ Traffic light Detector for Korea urban road/한국형 신호등 인식 프로그
 
 ![스크린샷 2024-02-27 041442](https://github.com/Dongwon-tuna/traffic_light_detector/assets/61178312/baf88f4d-2c21-415d-a200-dc42ae01a9d5)
 
-위 구성을 참고하여 우리가 학습한 데이터의 Confusion Marix를 분석할 수 있다. 
+위 구성을 참고하여 우리가 학습한 데이터의 Confusion Matrix를 분석할 수 있다. 
 
 대체적으로 green과 left와 red의 TP와 FP는 신뢰 가능성의 수치를 보였으나, 절대적인 yellow 데이터 부재와 Train, Val, Test 분류 실수로 인하여 유효한 데이터를 가져오지 못 하였다.(추후 재 학습 예정)
 
