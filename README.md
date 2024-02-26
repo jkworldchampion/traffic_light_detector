@@ -108,4 +108,4 @@ X-axis: Epochs, Y-axis: Value
 초록불과 좌회전이 동시에 켜진 신호등을 판단하는 상황.  
 ![green_right](https://github.com/jkworldchampion/traffic_light_detector/assets/83493949/032b0537-e254-4318-81ff-79df5c96a46c)  
 
-다양한 영상에서 실시간으로 탐지가 가능한 것으로 보아, 충분히 활용 가능성이 있는 것으로 판단함 있는 것으로 판단됨.  
+다양한 영상에서 실시간으로 인식이 가능한 것으로 보아, 충분히 활용 가능성이 있을 것으로 판단됨.  
