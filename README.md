@@ -58,6 +58,7 @@ Precision-Recall Curve가 반비례하는 곡선의 그래프처럼 보이는 �
 
 위 특성을 반영하여 우리가 학습한 Recall-Confidence Curve는 0.7부터 1.0 사이의 Confidence 레벨에서 급격한 기울기를 보이며 감소하는 음의 무한대로 수렴하는 로그함수 개형을 띈다.
 
+![R_curve](https://github.com/Dongwon-tuna/traffic_light_detector/assets/61178312/c0ccfd0b-364d-4de7-ae3b-4473e5649e83)
 
 ## 5. F1_curve
 
