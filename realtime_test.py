@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO('best_korea.pt')
+model = YOLO('./ml_model/final_korean_cam.pt')
 model.predict(source="0", show=True, conf=0.5)
 
 # Increase the frame rate by adjusting the waitKey value
