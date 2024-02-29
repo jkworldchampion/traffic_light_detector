@@ -1,0 +1,14 @@
+names:
+- green
+- red
+- yellow
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: cinta_v2
+  url: https://universe.roboflow.com/wawan-pradana/cinta_v2/dataset/1
+  version: 1
+  workspace: wawan-pradana
+test: test/images
+train: train/images
+val: valid/images
